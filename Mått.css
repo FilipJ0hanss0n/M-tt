@@ -1,0 +1,35 @@
+.a{
+	background-color:red;
+    width: 49vw;
+    margin: 0px;
+    height: 49vh;
+    font-size: 0px;
+}
+
+.b{
+	background-color:blue;
+    width: 49vw;
+    margin: 0px;
+    height: 49vh;
+    font-size: 0px;
+}
+
+.c{
+	background-color:green;
+    width: 49vw;
+    margin: 0px;
+    height: 49vh;
+    font-size: 0px;
+}
+
+.d{
+	background-color:yellow;
+    width: 49vw;
+    margin: 0px;
+    height: 49vh;
+    font-size: 0px;
+}
+ .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}

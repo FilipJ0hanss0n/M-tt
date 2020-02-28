@@ -1,35 +1,40 @@
 .a{
 	background-color:red;
-    width: 49vw;
+    width: 100%;
     margin: 0px;
-    height: 49vh;
+    height: 100%;
     font-size: 0px;
 }
 
 .b{
 	background-color:blue;
-    width: 49vw;
+    width: 100%;
     margin: 0px;
-    height: 49vh;
+    height: 100%;
     font-size: 0px;
 }
 
 .c{
 	background-color:green;
-    width: 49vw;
+    width: 100%;
     margin: 0px;
-    height: 49vh;
+    height: 100%;
     font-size: 0px;
 }
 
 .d{
 	background-color:yellow;
-    width: 49vw;
+    width: 100%;
     margin: 0px;
-    height: 49vh;
+    height: 100%;
     font-size: 0px;
 }
  .flex-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns:50vw 50vw;
+  grid-template-rows: 50vh 50vh;
+}
+
+body{
+	margin:0px;
 }

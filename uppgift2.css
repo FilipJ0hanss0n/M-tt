@@ -1,0 +1,15 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:lightblue;
+}
+
+.circle{
+	display:grid;
+	background-color:yellow;
+	border-radius:50%;
+	border-width:50%;
+	width:100vh;
+	height:100vh;
+	margin: 0 auto;
+}
